@@ -14,6 +14,11 @@
 
 //your code here
 
+function uselessFunction() {
+	var useless = null;
+	return useless;
+}
+
 //end your code
 
 var bar = 'not a function';
@@ -30,6 +35,24 @@ var barType = typeof bar;
 */
 
 //your code here
+
+bar = function doubleArray(floatA) {
+	var success = true;
+
+	for (var i=0; i<floatA.length; i++) {
+	
+		if (typeof floatA[i] === "number") {
+			floatA[i] *= 2;
+		}
+		else {
+			success = false;
+		}
+	
+	}
+
+	return success;
+}
+
 
 //end your code
 
