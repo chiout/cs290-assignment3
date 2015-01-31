@@ -14,7 +14,9 @@ function variableModification(a) {
   var asString;
   var yourNumberIs;
   //your code here
-
+  plus5 = a+5; // sum of a and 5
+  asString = a.toString(); // converts to string value
+  yourNumberIs = "Your Number is " + a; // concatenates string
   //end your code
   return [plus5, asString, yourNumberIs, a];
 }
@@ -29,7 +31,16 @@ false otherwise
 */
 function isString(b) {
   //your code here
-  return undefined;
+  var stringValue; // will take on a bool value from if/else statement
+
+  if (typeof b === "string") {
+    stringValue = true;
+  }
+  else {
+    stringValue = false;
+  }
+
+  return stringValue;
   //end your code
 }
 
@@ -42,6 +53,14 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return undefined;
+  var nullOrNot; // will take on a bool value from if/else statement
+  if (c === null) {
+    nullOrNot = true;
+  }
+  else {
+    nullOrNot = false;
+  }
+
+  return nullOrNot;
   //end your code
 }
