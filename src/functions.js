@@ -90,4 +90,8 @@ function GitLog(hash, date, message) {
 
 //your code here
 
+function parseGit() {
+
+}
+
 //end your code
