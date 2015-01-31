@@ -47,28 +47,45 @@ function returnObjectLiteral() {
 //your code here
 
 function MessageLog() {
-	this.user = user;
-	this.logMessage = function(messageText,direction) {
-		if (direction === 0) {
-			return "sent";
+	this.user;
+	this.storedRMessage;
+	this.storedSMessages = []; // store up to 5 messages
+	this.rCount = 0;
+	this.sCount = 0;
+	this.logMessage = function(messageText, direction) {
+		if (direction === 1) {
+			this.storedRMessage = messageText;
+			this.rCount +=1;
 		}
-		else if (direction === 1) {
-			return "received";
+		else if (direction === 0) {
+			if (this.storedSMessages.length < 6) {
+				this.storedSMessages.splice(0,0,messageText);
+				this.sCount +=1;
+				// will continuously add messages to the front of the array
+			}
+			else {
+				this.storedSMessages.pop(); // removes last element in array to keep array length at 5
+				this.storedSMessages.splice(0,0,messageText); // adds to front of the array
+				this.sCount += 1;
+			}
 		}
 		else {
 			return undefined;
-		}
-	}
-	this.getSentMessage = function(n) {
+		}	
 
 	}
+	this.getSentMessage = function(n) {
+		return this.storedSMessages[n]; // returns any of the 5 stored messages
+	}
 	this.totalSent = function() {
-		
+		return this.sCount; // returns sent messages count
 	}
 	this.totalReceived = function () {
-		
+		return this.rCount; // returns received messages count
 	}
  }
+
+
 
 //end your code
 
@@ -79,6 +96,10 @@ function MessageLog() {
 */
 //your code here
 
+MessageLog.prototype.lastReceivedMessage = function () {
+	return this.storedRMessage; // returns most recent received message
+}
+
 //end your code
 
 /**
@@ -88,5 +109,12 @@ function MessageLog() {
 */
 
 //your code here
+var myLog = new MessageLog;
+myLog.user = "BlackHatGuy";
+myLog.logMessage("foo", 1);
+myLog.logMessage("bar", 1);
+myLog.logMessage("baz", 1);
+
+
 
 //end your code
