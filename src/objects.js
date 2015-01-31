@@ -10,7 +10,14 @@
 
 function returnObjectLiteral() {
   //your code here
-  return undefined; //Modify ONLY this line
+  var objLit = {
+  	type: 'Goldfish',
+  	brand: 'Pepperidge Farm',
+  	flavor: 'Cheddar',
+  	count: 2000,
+  }; // creates object literal
+
+  return objLit; //Modify ONLY this line
   //end your code
 }
 
@@ -38,6 +45,30 @@ function returnObjectLiteral() {
 */
 
 //your code here
+
+function MessageLog() {
+	this.user = user;
+	this.logMessage = function(messageText,direction) {
+		if (direction === 0) {
+			return "sent";
+		}
+		else if (direction === 1) {
+			return "received";
+		}
+		else {
+			return undefined;
+		}
+	}
+	this.getSentMessage = function(n) {
+
+	}
+	this.totalSent = function() {
+		
+	}
+	this.totalReceived = function () {
+		
+	}
+ }
 
 //end your code
 
