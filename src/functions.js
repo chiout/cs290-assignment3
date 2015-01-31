@@ -42,10 +42,13 @@ bar = function doubleArray(floatA) {
 	for (var i=0; i<floatA.length; i++) {
 	
 		if (typeof floatA[i] === "number") {
-			floatA[i] *= 2;
+			floatA[i] *= 2; // if value is a number type, then it will be multiplied by 2
 		}
 		else {
 			success = false;
+			break;
+			// if value is not a number type, then it will not be multiplied by 2
+			// the loop will also end 
 		}
 	
 	}
@@ -90,7 +93,25 @@ function GitLog(hash, date, message) {
 
 //your code here
 
-function parseGit() {
+function parseGit(logArray) {
+
+	var gitLogArray = []; // new array of GitLog objects
+	var hash, date, message;
+
+	for (var i=0; i<logArray.length; i++) {
+		hash = logArray[i].slice(0,7);
+		dates = new Date(logArray[i].slice(8,38));
+		message = logArray[i].slice(40, logArray[i].length-1);
+		// slice breaks apart the logs so they can be designated to proper object properties
+
+		var newObject = new GitLog(hash, dates, message);
+		// creates new GitLog object
+		
+		gitLogArray[i] = newObject;
+		// object gets added to the gitlog array
+	}
+
+	return gitLogArray;
 
 }
 
