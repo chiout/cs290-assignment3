@@ -1,1 +1,130 @@
 You log goes in this  file.
+
+#Begin Part 1
+
+Start: Fri, 30 Jan 2015 19:41:00 -0800 
+End: Fri, 30 Jan 2015 21:54:13 -0800 
+Tasks: In this working period, I finished working and debugging objects.js; all tests are succes
+
+Start: Fri, 30 Jan 2015 18:29:00 -0800 
+End: Fri, 30 Jan 2015 19:08:04 -0800 
+Tasks: Began working on objects.js document; finished first problem
+
+Start: Fri, 30 Jan 2015 17:37:00 -0800 
+End: Fri, 30 Jan 2015 18:29:03 -0800 
+Tasks: Finished the last problem of functions.js in this work period and thereby completed the f
+
+Start: Fri, 30 Jan 2015 17:25:00 -0800 
+End: Fri, 30 Jan 2015 17:35:29 -0800 
+Tasks: Briefly began third problem in functions.js, will continue later
+
+Start: Fri, 30 Jan 2015 16:22:00 -0800 
+End: Fri, 30 Jan 2015 17:25:45 -0800 
+Tasks: In this working period, I finished 2 of the problems in the functions.js document. The fi
+
+Start: Fri, 30 Jan 2015 15:55:00 -0800 
+End: Fri, 30 Jan 2015 16:17:34 -0800 
+Tasks: In this work period, I finished writing my code for the variables.js document, and I pass
+
+
+#Begin Part 2
+
+Start: Sun, 1 Feb 2015 17:01:13 -0800
+End: Sun, 1 Feb 2015 17:14:09 -0800 
+Tasks: separated the javascript into its own file and tested to make sure everything works as before, finished
+
+Start: Sun, 1 Feb 2015 15:38:31 -0800 
+End: Sun, 1 Feb 2015 17:01:13 -0800 
+Tasks: Finished adding comments and sources, saving this draft before placing the javascript in its own file
+
+Start: Sun, 1 Feb 2015 15:09:54 -0800 
+End: Sun, 1 Feb 2015 15:38:31 -0800 
+Tasks: Assignment mostly finished, now need to finish adding sources and comments
+
+Start: Sun, 1 Feb 2015 13:29:26 -0800 
+End: Sun, 1 Feb 2015 15:09:54 -0800 
+Tasks: Made lots of changes in this work session, added more to the favorites feature and changed around my code to compensate for adding/removing favorites
+
+Start: Sun, 1 Feb 2015 11:25:00 -0800 
+End: Sun, 1 Feb 2015 13:29:26 -0800 
+Tasks: Successfully able to save favorites in local storage and have them appear on the favorites section
+
+Start: Sun, 1 Feb 2015 09:05:00 -0800
+End: Sun, 1 Feb 2015 09:35:16 -0800 
+Tasks: Added code to pull description and id from data. Committing this draft before beginning to work on favorites
+
+Start: Sun, 1 Feb 2015 01:23:31 -0800 
+End: Sun, 1 Feb 2015 01:30:42 -0800 
+Tasks: Extended search functionality to other langugages; unable to access server again but will test work later
+
+Start: Sun, 1 Feb 2015 00:35:00 -0800 
+End: Sun, 1 Feb 2015 01:23:31 -0800 
+Tasks: Finally finished debugging search functionality, now just have to extend it to the other language options
+
+Start: Sat, 31 Jan 2015 23:29:59 -0800 
+End: Sat, 31 Jan 2015 23:41:15 -0800 
+Tasks: made a brief change, waiting until server allows me back in to test it
+
+Start: Sat, 31 Jan 2015 22:41:44 -0800 
+End: Sat, 31 Jan 2015 23:29:59 -0800 
+Tasks: Tried debugging but for loop stops executing in the middle and hits an error. Not sure why
+
+Start: Sat, 31 Jan 2015 20:11:20 -0800
+End: Sat, 31 Jan 2015 22:41:44 -0800 
+Tasks: Continued debugging search function; didn't make much progress
+
+Start: Sat, 31 Jan 2015 17:49:48 -0800 
+End: Sat, 31 Jan 2015 20:11:20 -0800 
+Tasks: Working on search functionality, somehow unable to still get it to work properly. Unable to access gists server again so will continue later
+
+Start: Sat, 31 Jan 2015 17:35:16 -0800
+End: Sat, 31 Jan 2015 17:49:48 -0800 
+Tasks: Began working on search button and language selection functionality; saving this draft
+
+Start: Sat, 31 Jan 2015 17:04:00 -0800
+End: Sat, 31 Jan 2015 17:35:16 -0800 
+Tasks: Finished debugging function so that the proper number of results display
+
+Start: Sat, 31 Jan 2015 15:54:50 -0800 
+End: Sat, 31 Jan 2015 17:04:00 -0800 
+Tasks: Added the language checklist in the HTML and made some other changes; unable to fully test right now because I exceed the number of times I could extract fro
+
+Start: Sat, 31 Jan 2015 15:27:20 -0800
+End: Sat, 31 Jan 2015 15:54:50 -0800 
+Tasks: Added the display functionality based on user input of number of results
+
+Start: Sat, 31 Jan 2015 14:24:40 -0800 
+End: Sat, 31 Jan 2015 15:27:20 -0800 
+Tasks: Finished debugging radio buttons
+
+Start: Sat, 31 Jan 2015 14:12:54 -0800
+End: Sat, 31 Jan 2015 14:24:40 -0800 
+Tasks: Finished debugging issue where the program was not pulling in the data from all calls
+
+Start: Sat, 31 Jan 2015 13:18:48 -0800
+End: Sat, 31 Jan 2015 14:12:54 -0800 
+Tasks: further debugged file in this working period, saving this version
+
+Start: Sat, 31 Jan 2015 12:48:15 -0800 
+End: Sat, 31 Jan 2015 13:18:48 -0800 
+Tasks: In this working session, I debugged some of my javascript
+
+Start: Sat, 31 Jan 2015 12:18:00 -0800
+End: Sat, 31 Jan 2015 12:48:15 -0800 
+Tasks: Tried another method, did not work
+
+Start: Sat, 31 Jan 2015 8:21:00 -0800 
+End: Sat, 31 Jan 2015 12:17:24 -0800 
+Tasks: Worked on main.html some more but hit some issues and did not know how to resolve, backtrack to previous branch
+
+Start: Sat, 31 Jan 2015 00:10:00 -0800 
+End: Sat, 31 Jan 2015 00:36:56 -0800 
+Tasks: Worked a bit more; changed response to a regular object, now beginning to work on how to add everything to an array
+
+Start: Fri, 30 Jan 2015 23:28:00 -0800 
+End: Fri, 30 Jan 2015 23:57:46 -0800 
+Tasks: worked on connecting my webpage to the public gists
+
+Start: Fri, 30 Jan 2015 23:26:00 -0800 
+End: Fri, 30 Jan 2015 23:27:31 -0800 
+Tasks: initial commit before starting work
